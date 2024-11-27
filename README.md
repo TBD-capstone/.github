@@ -7,7 +7,7 @@
 
 🔗 [배포 링크](https://)
 
-<img src="" alt="uni"/>
+<img src="https://github.com/user-attachments/assets/dc64791e-82ec-45ec-b7a4-0579fc5868c3" style='width: 50%' alt="uni"/>
 
 </div>
 
