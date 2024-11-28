@@ -3,11 +3,10 @@
 <div align='center'>
 
 <h1><b>UNI</b></h1>
-<h3><b>한국 대학생 및  유학생의 매칭 프로젝트</b></h3>
 
-🔗 [UNI](https://uni-ajou.site)
+<img src="https://github.com/user-attachments/assets/a4e25dd8-81cf-4fc2-ab37-999ef4012e38" style='width: 80%' alt="uni_thumbnail"/>
 
-<img src="https://github.com/user-attachments/assets/dc64791e-82ec-45ec-b7a4-0579fc5868c3" style='width: 50%' alt="uni"/>
+배포 URL 🔗 [UNI](https://uni-ajou.site)
 
 </div>
 
@@ -28,11 +27,9 @@
 
 ## <span id="1">🚩 1. 프로젝트 소개</span>
 
-Team TBD Notion: [UNI](https://www.notion.so/UNI-56099638efb147a1b3eaff6058c5aa23?pvs=4)
+Team TBD Notion: [UNI](https://acidic-alder-523.notion.site/UNI-56099638efb147a1b3eaff6058c5aa23?pvs=4)
 
-> 프로젝트 개발 기간: 2024.09.02 ~ 2024.12.08
-
-
+> 프로젝트 개발 기간: 2024.09.02 ~ 2024.12.09
 
 **UNI**는 한국 대학생과 외국인 유학생 간의 교류를 촉진하고, 유학생들의 적응을 지원하기 위한 맞춤형 매칭 플랫폼입니다. 이 플랫폼은 한국 대학생과 유학생이 서로의 요구에 맞는 도움을 주고받으며, 문화적 이해를 증진하고 글로벌 역량을 강화할 수 있는 기회를 제공합니다.
 
@@ -63,18 +60,33 @@ Team TBD Notion: [UNI](https://www.notion.so/UNI-56099638efb147a1b3eaff6058c5aa2
 #### 1. **유학생 맞춤형 도움 제공**
 - 유학생이 겪는 어려움을 해결.
 
-| **주요 관심사 카테고리** |
-|--------------|
-| **여행**     |
-| **행정**     |
-| **부동산**   |
-| **은행**     |
-| **휴대폰**   |
-| **언어교환** |
-| **대학 생활**|
-| **맛집**     |
-| **게임**     |
-| **쇼핑**     |
+<table>
+  <tr>
+    <th colspan="2">주요 관심사 카테고리</th>
+  </tr>
+  <tr>
+    <td>여행</td>
+    <td>부동산</td>
+  </tr>
+  <tr>
+    <td>행정</td>
+    <td>은행</td>
+  </tr>
+  <tr>
+    <td>휴대폰</td>
+    <td>언어교환</td>
+  </tr>
+  <tr>
+    <td>대학 생활</td>
+    <td>맛집</td>
+  </tr>
+  <tr>
+    <td>게임</td>
+    <td>쇼핑</td>
+  </tr>
+</table>
+
+
 
 
 #### 2. **한국 대학생의 글로벌 경험 확장**
@@ -265,7 +277,7 @@ Team TBD Notion: [UNI](https://www.notion.so/UNI-56099638efb147a1b3eaff6058c5aa2
 
 <br>
 
-## <span id="4">❓ 4. 라이브러리 사용 이유</span>
+## <span id="4">❓ 4. 사용 라이브러리</span>
 
 > **react-icon**  
 후기 작성 화면의 별점을 구현하기 위하여 사용하였다. 이를 통해 직관적인 별점 UI를 제공하며, 사용자 경험을 향상시켰다.
@@ -282,7 +294,7 @@ Team TBD Notion: [UNI](https://www.notion.so/UNI-56099638efb147a1b3eaff6058c5aa2
 
 <br>
 
-> **Stomp**  
+> **STOMP**  
 실시간 채팅 기능 구현을 위해 사용하였다. 유학생과 한국 대학생 간의 원활한 소통을 가능하게 하며, 빠른 메시지 전송과 수신을 지원한다.
 
 <br>
@@ -411,83 +423,41 @@ Closes #456
 
 ## <span id="6">6. 💻 주요 기능 소개</span>
 
-
-
-### 1) 홈
-
-<div style="display: flex; justify-content: space-between; width: 100%;">
-  <div style="text-align: center; width: 32%;">
-    <img src="https://github.com/user-attachments/assets/1caa37b0-1cce-40e4-92e4-25f286966512" style="width: 100%; height: auto;" alt="메인 페이지">
-    <p>메인 페이지</p>
-  </div>
-  <div style="text-align: center; width: 32%;">
-    <img src="https://github.com/user-attachments/assets/f016d8ea-3766-4da5-b476-166dc5b9511b" style="width: 100%; height: auto;" alt="프로필 화면">
-    <p>프로필 화면</p>
-  </div>
-  <div style="text-align: center; width: 32%;">
-    <img src="https://github.com/user-attachments/assets/e67da2e8-c8a7-49ae-9bab-0eef0319150e" style="width: 100%; height: auto;" alt="채팅 화면">
-    <p>채팅 화면</p>
-  </div>
-</div>
-
 <table style="width:99%">
     <tr>
-        <th style="width:33%;"> 참가자 표시</th>
-        <th style="width:33%;"> 이모지</th>
-        <th style="width:33%;"> 음악 동시 재생</th>
+        <th style="width:33%;"> 1. 홈 화면</th>
+        <th style="width:33%;"> 2. 프로필</th>
+        <th style="width:33%;"> 3. Q&A</th>
     </tr>
     <tr>
-        <td> <img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/tutorial-collaborators.png"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/tutorial-emoji.png"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/tutorial-music.png"></td>
+        <td><img src="https://github.com/user-attachments/assets/1caa37b0-1cce-40e4-92e4-25f286966512"></td>
+        <td><img src="https://github.com/user-attachments/assets/f016d8ea-3766-4da5-b476-166dc5b9511b"></td>
+        <td><img src="https://github.com/user-attachments/assets/58103335-169a-4b94-b265-1adba47fbc70"></td>
     </tr>
 </table>
 <table style="width:99%">
     <tr>
-        <th style="width:33%;"> 싱크</th>
-        <th style="width:33%;">타이머</th>
-        <th style="width:33%;">음성 채팅</th>
+        <th style="width:33%;"> 4. 후기</th>
+        <th style="width:33%;"> 5. 채팅</th>
+        <th style="width:33%;"> 6. 채팅 목록</th>
     </tr>
     <tr>
-        <td> <img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/tutorial-sync.png"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/tutorial-timer.png"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/tutorial-voice.png"></td>
-    </tr>
-</table>
-<table style="width:99%">
-    <tr>
-        <th style="width:33%;"> 4. 페르소나 설정</th>
-        <th style="width:33%;"> 5. 문제 정의</th>
-        <th style="width:33%;">6. 원인 정의</th>
-    </tr>
-    <tr>
-        <td> <img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step4.gif"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step5.gif"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step6.gif"></td>
+        <td> <img src="https://github.com/user-attachments/assets/81f1aa22-22d8-46fd-8c29-2b0257981086"></td>
+        <td><img src="https://github.com/user-attachments/assets/e67da2e8-c8a7-49ae-9bab-0eef0319150e"></td>
+        <td><img src="https://github.com/user-attachments/assets/60861de2-bc26-4ee5-a60b-5002f48ef2f0"></td>
     </tr>
 </table>
 <table style="width:99%">
     <tr>
-        <th style="width:33%;"> 7. 솔루션 탐색</th>
-        <th style="width:33%;"> 8. 서비스 가치 결정</th>
-        <th style="width:33%;">9. 비즈니스 모델 선정</th>
+        <th style="width:33%;"> 7. 매칭 목록</th>
+        <th style="width:33%;"> 8. 후기 작성</th>
+        <th style="width:33%;"> 9. 관리자 페이지</th>
     </tr>
     <tr>
-        <td> <img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step7.gif"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step8.gif"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step9.gif"></td>
-    </tr>
-</table>
-<table style="width:99%">
-    <tr>
-        <th style="width:33%;"> 10. 유저 시나리오 작성</th>
-        <th style="width:33%;"> 11. 유저 스토리 작성</th>
-        <th style="width:33%;">12. 비즈니스 모델 선정</th>
-    </tr>
-    <tr>
-        <td> <img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step10.gif"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step11.gif"></td>
-        <td><img src="https://raw.githubusercontent.com/i-Dear/.github/main/profile/resources/step12.gif"></td>
+        <td> <img src="https://github.com/user-attachments/assets/154adabf-ce74-431e-88df-b360003e8fc9"></td>
+        <td><img width="1680" alt="image" src="https://github.com/user-attachments/assets/ad0073f4-f397-494f-88ac-0db6c64c7641"></td>
+        <td><img src="https://github.com/user-attachments/assets/84cdca02-1d3a-47d8-b8d1-9d6fba83f4dc">
+</td>
     </tr>
 </table>
 
@@ -512,16 +482,7 @@ TBD
 <img src='https://github.com/user-attachments/assets/d3bf0dcb-8648-40fb-a2c3-c1daa5cbf503'>
 
 <!-- CSS 스타일 -->
-
 <style>
-.main-function-images {
-  border: 2px solid #ccc;
-  padding: 5px;
-  border-radius: 8px;
-  display: block;
-  margin: 10px auto;
-}
-
 .top-button {
   background: black;
   width: 32px;
