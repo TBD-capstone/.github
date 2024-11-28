@@ -442,7 +442,7 @@ Closes #456
         <th style="width:33%;"> 6. 채팅 목록</th>
     </tr>
     <tr>
-        <td> <img src="https://github.com/user-attachments/assets/81f1aa22-22d8-46fd-8c29-2b0257981086" style="width:100%;"></td>
+        <td><img src="https://github.com/user-attachments/assets/81f1aa22-22d8-46fd-8c29-2b0257981086" style="width:100%;"></td>
         <td><img src="https://github.com/user-attachments/assets/e67da2e8-c8a7-49ae-9bab-0eef0319150e" style="width:100%;"></td>
         <td><img src="https://github.com/user-attachments/assets/60861de2-bc26-4ee5-a60b-5002f48ef2f0" style="width:100%;"></td>
     </tr>
@@ -454,10 +454,9 @@ Closes #456
         <th style="width:33%;"> 9. 관리자 페이지</th>
     </tr>
     <tr>
-        <td> <img src="https://github.com/user-attachments/assets/154adabf-ce74-431e-88df-b360003e8fc9 style="width:100%;""></td>
-        <td><img width="1680" alt="image" src="https://github.com/user-attachments/assets/ad0073f4-f397-494f-88ac-0db6c64c7641" style="width:100%;"></td>
-        <td><img src="https://github.com/user-attachments/assets/84cdca02-1d3a-47d8-b8d1-9d6fba83f4dc" style="width:100%;">
-</td>
+        <td><img src="https://github.com/user-attachments/assets/154adabf-ce74-431e-88df-b360003e8fc9" style="width:100%;"></td>
+        <td><img src="https://github.com/user-attachments/assets/ad0073f4-f397-494f-88ac-0db6c64c7641" style="width:100%;"></td>
+        <td><img src="https://github.com/user-attachments/assets/84cdca02-1d3a-47d8-b8d1-9d6fba83f4dc" style="width:100%;"></td>
     </tr>
 </table>
 
